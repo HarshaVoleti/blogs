@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "4b20a1575e4ffaa2",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d7107a411dd6c38",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36c9033913449be4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Welcome"
+            }
+          },
+          {
+            "id": "1ade5922125a4a84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "shortcuts/Shortcuts.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Shortcuts"
+            }
+          },
+          {
+            "id": "c922624aa080379c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ToDo's.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "ToDo's"
+            }
+          },
+          {
+            "id": "a5af971188bd9d52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Production Grade App Architecture.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Production Grade App Architecture"
+            }
+          },
+          {
+            "id": "4732b5840220b013",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BIR-1843 - Capture Opportunity Source at Creation with Mandatory Selection and Partner Association.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "BIR-1843 - Capture Opportunity Source at Creation with Mandatory Selection and Partner Association"
+            }
+          },
+          {
+            "id": "13bd3d6aa86969ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Architecture Mistake Almost Every Mobile App Makes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "The Architecture Mistake Almost Every Mobile App Makes"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6203616df75b3e8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5371afa64c7ad41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1021afaedd5620e9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 293.5
+  },
+  "right": {
+    "id": "cc47fd041df95bbe",
+    "type": "split",
+    "children": [
+      {
+        "id": "21d86a488a95d0c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "290cc02e298805a4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "59305b8da5459548",
+            "type": "leaf",
+            "state": {
+              "type": "github-copilot-chat-view",
+              "state": {},
+              "icon": "bot-message-square",
+              "title": "Copilot Chat"
+            }
+          },
+          {
+            "id": "6a7b762a88d7a8c3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Production Grade App Architecture.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Production Grade App Architecture"
+            }
+          },
+          {
+            "id": "3db026dce9c1bfac",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Production Grade App Architecture.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Production Grade App Architecture"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 377.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false
+    }
+  },
+  "active": "1021afaedd5620e9",
+  "lastOpenFiles": [
+    "README.md",
+    "Pasted image 20260128174307.png",
+    "The Architecture Mistake Almost Every Mobile App Makes.md",
+    "BIR-1843 - Capture Opportunity Source at Creation with Mandatory Selection and Partner Association.md",
+    "Production Grade App Architecture.md",
+    "ToDo's.md",
+    "shortcuts/Shortcuts.md",
+    "Welcome.md",
+    "Untitled.md",
+    "Vim/vim commands.md",
+    "shortcuts",
+    "Vim",
+    "create a link.md"
+  ]
+}

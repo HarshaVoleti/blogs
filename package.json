@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "A VitePress blog",
   "scripts": {
+    "setup": "bash deploy.sh",
     "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
+    "docs:build": "bash deploy.sh && vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0"
+    "vitepress": "^1.6.4"
   }
 }

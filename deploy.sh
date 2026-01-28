@@ -9,9 +9,8 @@ npm install vitepress
 mkdir -p docs/blog
 mkdir -p docs/public
 
-# Copy markdown files to blog directory
-# Adjust source path as needed for your blog content
-cp *.md docs/blog/ 2>/dev/null || true
+# Copy markdown files from blogs directory to docs/blog
+cp blogs/*.md docs/blog/ 2>/dev/null || true
 
 # Add frontmatter to blog posts if missing
 find docs/blog -name "*.md" -type f | while read -r FILE; do

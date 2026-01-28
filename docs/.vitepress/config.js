@@ -13,7 +13,9 @@ export default defineConfig({
       '/blog/': [
         {
           text: 'Blog Posts',
-          items: []
+          items: [
+            { text: 'Production Grade Architecture', link: '/blog/production_grade_architecture' }
+          ]
         }
       ]
     }

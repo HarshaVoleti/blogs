@@ -1,3 +1,4 @@
+# The Architecture Mistake Almost Every Mobile App Makes
   > _How Architectural Choices Quietly Shape UX in Production Apps_
 
 ## 1. **Architecture Is a UX Decision (Whether You Like It or Not)**

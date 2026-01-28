@@ -41,9 +41,9 @@ if [ ! -f "docs/.vitepress/config.js" ]; then
   mkdir -p docs/.vitepress
   
   cat > docs/.vitepress/config.js << 'EOF'
-import { defineConfig } from 'vitepress'
+const { defineConfig } = require('vitepress')
 
-export default defineConfig({
+module.exports = defineConfig({
   title: "My Blog",
   description: "A VitePress blog",
   cleanUrls: true,

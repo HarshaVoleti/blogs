@@ -5,7 +5,7 @@
   "scripts": {
     "setup": "bash deploy.sh",
     "docs:dev": "vitepress dev docs",
-    "docs:build": "bash deploy.sh && vitepress build docs",
+    "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {

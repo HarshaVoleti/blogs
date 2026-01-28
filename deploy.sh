@@ -92,7 +92,4 @@ hero:
 EOF
 fi
 
-# Build the site
-npm run docs:build
-
-echo "✓ VitePress blog deployment complete!"
+echo "✓ VitePress blog setup complete!"

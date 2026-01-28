@@ -1,5 +1,5 @@
 [build]
-command = "npm install && npm run docs:build"
+command = "npm install && bash deploy.sh && npm run docs:build"
 publish = "docs/.vitepress/dist"
 
 [[redirects]]

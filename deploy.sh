@@ -36,11 +36,11 @@ find docs/blog -name "*.md" -type f | while read -r FILE; do
   fi
 done
 
-# Create VitePress config if it doesn't exist
-if [ ! -f "docs/.vitepress/config.js" ]; then
-  mkdir -p docs/.vitepress
-  
-  cat > docs/.vitepress/config.mjs << 'EOF'
+# Create VitePress config
+mkdir -p docs/.vitepress
+rm -f docs/.vitepress/config.js  # Remove old CommonJS config if it exists
+
+cat > docs/.vitepress/config.mjs << 'EOF'
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
@@ -63,7 +63,6 @@ export default defineConfig({
   }
 })
 EOF
-fi
 
 # Create blog index if it doesn't exist
 if [ ! -f "docs/blog/index.md" ]; then

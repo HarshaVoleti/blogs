@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-
+import { generateSidebar } from 'vitepress-sidebar'
 export default defineConfig({
   title: "My Blog",
   description: "A VitePress blog",
@@ -9,16 +9,11 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Blog', link: '/blog/' }
     ],
-    sidebar: {
-      '/blog/': [
-        {
-          text: 'Blog Posts',
-          items: [
-            { text: 'Production Grade Architecture', link: '/blog/production_grade_architecture' }
-          ]
-        }
-      ]
-    },
+    sidebar: generateSidebar([
+      {
+        documentRootPath: '/blog/'
+      }
+    ]),
     search: {
       provider: 'local'
     }
